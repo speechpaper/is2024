@@ -73,3 +73,6 @@
 	{.site-footer{font-size:0.9rem}}
 	.site-footer-owner{display:block;font-weight:bold}
 	.site-footer-credits{color:#819198}
+
+	.main-content .various th {text-overflow:ellipsis; word-break:keep-all; white-space:nowrap;}
+
