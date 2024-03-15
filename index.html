@@ -156,128 +156,109 @@
 </table>
 
 <h2>4. Various LLM-CE Strategies<a name="various_LLM_CE_strategies"></a></h2>
-<table class='various' style="width:auto;">
+<h3>4.1 Intercross vs. No Intercross</h3>
+<table>
 	<tbody>
 			<tr>
-	            <td style="text-align: left" colspan=11>1. 炎炎夏日，号称喷一下就能体感清凉的清凉喷雾销售火爆。北京地坛医院皮肤性病科主任医师伦文辉提醒，清凉喷雾不应直接喷于皮肤表面，以防发生皮肤冻伤或过敏。在国贸附近一家便利店内，货架上摆放了三排不同香型的某品牌“凉感喷雾”。这款清凉喷雾使用方法中介绍，清凉喷雾应在距离人体五至十厘米处，对准感到炎热的部位，隔着衣物多次喷洒即可降温。“这种清凉喷雾小巧便携，一瓶售价十五元，今年比往年热，特别好卖，一天能卖出十多瓶。”售货员说。在某网购平台上，这类清凉喷雾更是受到消费者热捧，月销量普遍在三千瓶左右。一款日本品牌的清凉喷雾，打着“喷洒后体温瞬间下降十点二摄氏度”的广告语，月销量甚至高达两万瓶。
+	            <td style="text-align: left" colspan=2>1. 距离暑期档结束还有十四天，档期票房已刷新历史纪录。据猫眼专业版数据，截至八月十七日十九时二十九分，二零二三年暑期档总票房突破一百七十七点七九亿元，超过二零一九年的一百七十七点七八亿元，刷新中国影史暑期档票房纪录。同时大盘票房连续五十八天破亿元，创中国影史连续破亿天数新高。四部影片票房突破二十亿元，创中国影史暑期档新高。有影视从业者对《证券日报》记者表示：“当前影视行业的强势复苏可以说是超行业预期的，同时，票房刷新历史纪录，也极大的提振了从业人员信心。”暑期档在优质高满意度国产影片带动下热度不断攀升，全面展现出中国电影市场强大的韧性与蓬勃的活力。猫眼娱乐方面表示，作为中国电影行业的重要参与者之一，对中国电影的未来充满信心。
+			</tr>  
+	      	<tr>     
+	      		<th style="text-align: center"><strong>&nbsp; Intercross &nbsp;</strong></th>
+	            <th style="text-align: center"><strong>No Intercross</strong></th> 
+	      	</tr>
+			<tr>
+		     	<td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/intercross/000062.wav" controls="" preload=""></audio></td>
+	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/no intercross/000062.wav" controls="" preload=""></audio></td>
+	       </tr>
+			
+			<tr>
+	            <td style="text-align: left" colspan=2>2. 中国国家五人制棒球队赞助签约发布会八月十七日在京举行。会上，中国棒球协会向运动品牌——天跑正式授牌，指定天跑作为国家五人制棒球队唯一指定运动服装类赞助商。据中国棒球协会主席陈旭现场介绍，棒球运动在世界范围内都有着很高的地位和影响力。但由于各方面的原因，棒球运动在中国仍然偏于小众。近年来，在政策支持和体育产业发展的推动下，中国棒球业已取得了显著的进步。据相关资料显示，中国棒球整体人口规模已超千万。其中超过八成的棒球人群年龄集中在二十至三十五岁，年轻化趋势明显。尤其是五人制棒球运动，由于其自身具有上场人数少、比赛节奏快、观赏性强等特点，非常受年轻人的欢迎。
 			</tr>  
 	      	<tr>     
 	            <th style="text-align: center"><strong>&nbsp; Intercross &nbsp;</strong></th>
 	            <th style="text-align: center"><strong>No Intercross</strong></th> 
-	            <th style="text-align: center"><strong>1 context sets</strong></th>
-	            <th style="text-align: center"><strong>3 context sets</strong></th> 
-	            <th style="text-align: center"><strong>5 context sets</strong></th>
-	            <th style="text-align: center"><strong>7 context sets</strong></th>
-	            <th style="text-align: center"><strong>10 context sets</strong></th>
-	            <th style="text-align: center"><strong>1 context utts</strong></th>
-	            <th style="text-align: center"><strong>2 context utts</strong></th>
-	            <th style="text-align: center"><strong>3 context utts</strong></th>
-	            <th style="text-align: center"><strong>4 context utts</strong></th>
-	      	</tr>
+	        </tr>
 			<tr>
-		     	<td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/intercross/000016.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/no intercross/000016.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/1 context sets/000016.wav" controls="" preload=""></audio></td> 
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/3 context sets/000016.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/5 context sets/000016.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/7 context sets/000016.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/10 context sets/000016.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/1 context utts/000016.wav" controls="" preload=""></audio></td> 
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/2 context utts/000016.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/3 context utts/000016.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/4 context utts/000016.wav" controls="" preload=""></audio></td>
-			</tr>
+		     	<td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/intercross/000067.wav" controls="" preload=""></audio></td>
+	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/no intercross/000067.wav" controls="" preload=""></audio></td>
+	        </tr>
 			
-			<tr>
-	            <td style="text-align: left" colspan=11>2. 从首批试点站设立，到一百六十七个野外站联网，国家野外站由点连成片、由片连成网，“全国一盘棋”正在这张大网日益完善的过程中成为可能。七月二十九日下午两点，瓢泼大雨中，河南封丘农田生态系统国家野外科学观测研究站的数据观测人员李小丽，顺着熟悉的小路走进气象观测场，顶着拍在脸上的雨水，打开百叶箱，记录下温度计上的数字。随着记录完成，她也淋透了今天的第二套衣服。作为国家野外科学观测研究站，封丘站开展的农田生态系统水、土、气等生态要素的长期定位观测工作几十年来从未间断，一年三百六十五天，风雨无阻。国家野外站是国家创新体系的重要组成部分，通过长期野外定位观测获取科学数据，开展野外科学试验研究，为科技创新提供基础支撑和条件保障。科技部基础研究司副司长黄灿宏的办公室里，一张中国地图上，一百六十七个国家野外站如同一颗颗闪亮的星星，分布在中国大地各个角落。
-			</tr>  
-	      	<tr>     
-	            <th style="text-align: center"><strong>&nbsp; Intercross &nbsp;</strong></th>
-	            <th style="text-align: center"><strong>No Intercross</strong></th> 
-	            <th style="text-align: center"><strong>1 context sets</strong></th>
-	            <th style="text-align: center"><strong>3 context sets</strong></th> 
-	            <th style="text-align: center"><strong>5 context sets</strong></th>
-	            <th style="text-align: center"><strong>7 context sets</strong></th>
-	            <th style="text-align: center"><strong>10 context sets</strong></th>
-	            <th style="text-align: center"><strong>1 context utts</strong></th>
-	            <th style="text-align: center"><strong>2 context utts</strong></th>
-	            <th style="text-align: center"><strong>3 context utts</strong></th>
-	            <th style="text-align: center"><strong>4 context utts</strong></th>
-	      	</tr>
-			<tr>
-		     	<td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/intercross/000024.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/no intercross/000024.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/1 context sets/000024.wav" controls="" preload=""></audio></td> 
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/3 context sets/000024.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/5 context sets/000024.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/7 context sets/000024.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/10 context sets/000024.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/1 context utts/000024.wav" controls="" preload=""></audio></td> 
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/2 context utts/000024.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/3 context utts/000024.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/4 context utts/000024.wav" controls="" preload=""></audio></td>
-			</tr>
-			
-			<tr>
-	            <td style="text-align: left" colspan=11>3. 这里有满壁风动的盛唐芳华、飘逸灵动的飞天仙女、流传千古的九色鹿传说；这里见证东西方文化交汇，是中华文明几千年不断融会贯通的典范。这里，是敦煌。从公元四世纪至十四世纪，一千多年间，一代代人开窟造像，成就莫高窟这座举世闻名的艺术宝库，至今仍存七百三十五个洞窟、四点五万平方米壁画、两千多个彩塑。今天，在科技手段助力下，敦煌人有信心为莫高窟再续命千年。二零一六年，“数字敦煌”资源库平台上线，首次通过互联网向全球发布敦煌石窟三十个经典洞窟的高清数字化内容及全景漫游；二零二零年，“云游敦煌”微信小程序上线； 二零二三年，结合敦煌学研究成果与游戏科技的“数字藏经洞”上线。
-			</tr>  
-	      	<tr>     
-	            <th style="text-align: center"><strong>&nbsp; Intercross &nbsp;</strong></th>
-	            <th style="text-align: center"><strong>No Intercross</strong></th> 
-	            <th style="text-align: center"><strong>1 context sets</strong></th>
-	            <th style="text-align: center"><strong>3 context sets</strong></th> 
-	            <th style="text-align: center"><strong>5 context sets</strong></th>
-	            <th style="text-align: center"><strong>7 context sets</strong></th>
-	            <th style="text-align: center"><strong>10 context sets</strong></th>
-	            <th style="text-align: center"><strong>1 context utts</strong></th>
-	            <th style="text-align: center"><strong>2 context utts</strong></th>
-	            <th style="text-align: center"><strong>3 context utts</strong></th>
-	            <th style="text-align: center"><strong>4 context utts</strong></th>
-	      	</tr>
-			<tr>
-		     	<td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/intercross/000035.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/no intercross/000035.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/1 context sets/000035.wav" controls="" preload=""></audio></td> 
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/3 context sets/000035.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/5 context sets/000035.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/7 context sets/000035.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/10 context sets/000035.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/1 context utts/000035.wav" controls="" preload=""></audio></td> 
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/2 context utts/000035.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/3 context utts/000035.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/4 context utts/000035.wav" controls="" preload=""></audio></td>
-			</tr>
-			
-			<tr>
-	            <td style="text-align: left" colspan=11>4. 看过海豚、挖过螃蟹，从那以后，每年的寒暑假，父母都会带我游历祖国的大好河山，有时，一年能走上八九个城市。每一次行走，家人都会“强迫”我写一篇游记。有一次，老师出了“环保”的命题作文。我在结尾写道：“若干年后，地球上的河流湖泊会比漓江还清上三分”，父母看到后觉得“桂林总算没白去”。上大学后，我兼职挣了些钱，加上父母的资助，买了人生第一台相机，开启了穷游模式。绿皮火车和青年旅馆成了我每趟旅行的必选，学生证还能带来一些优惠，每座城市的花销能控制在一千五百元以内。我企图用最少的钱看最多的风景。很长一段时间，我抱着“路过就是看过”的集邮式心态旅游。为了告诉别人我来过，在地标性建筑打卡排长队，疯狂去微博、朋友圈等社交媒体晒照，将打卡拍照当成刷题，好像点赞量越多，这趟旅行的价值就越大。
-			</tr>  
-	      	<tr>     
-	            <th style="text-align: center"><strong>&nbsp; Intercross &nbsp;</strong></th>
-	            <th style="text-align: center"><strong>No Intercross</strong></th> 
-	            <th style="text-align: center"><strong>1 context sets</strong></th>
-	            <th style="text-align: center"><strong>3 context sets</strong></th> 
-	            <th style="text-align: center"><strong>5 context sets</strong></th>
-	            <th style="text-align: center"><strong>7 context sets</strong></th>
-	            <th style="text-align: center"><strong>10 context sets</strong></th>
-	            <th style="text-align: center"><strong>1 context utts</strong></th>
-	            <th style="text-align: center"><strong>2 context utts</strong></th>
-	            <th style="text-align: center"><strong>3 context utts</strong></th>
-	            <th style="text-align: center"><strong>4 context utts</strong></th>
-	      	</tr>
-			<tr>
-		     	<td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/intercross/000057.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/no intercross/000057.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/1 context sets/000057.wav" controls="" preload=""></audio></td> 
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/3 context sets/000057.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/5 context sets/000057.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/7 context sets/000057.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/10 context sets/000057.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/1 context utts/000057.wav" controls="" preload=""></audio></td> 
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/2 context utts/000057.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/3 context utts/000057.wav" controls="" preload=""></audio></td>
-	            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/4 context utts/000057.wav" controls="" preload=""></audio></td>
-			</tr>
-			
+	</tbody>
+</table>
+<h3>4.2 Various Context Sets</h3>
+<table>
+	<tbody>
+		<tr>
+            <td style="text-align: left" colspan=5>1. 看过海豚、挖过螃蟹，从那以后，每年的寒暑假，父母都会带我游历祖国的大好河山，有时，一年能走上八九个城市。每一次行走，家人都会“强迫”我写一篇游记。有一次，老师出了“环保”的命题作文。我在结尾写道：“若干年后，地球上的河流湖泊会比漓江还清上三分”，父母看到后觉得“桂林总算没白去”。上大学后，我兼职挣了些钱，加上父母的资助，买了人生第一台相机，开启了穷游模式。绿皮火车和青年旅馆成了我每趟旅行的必选，学生证还能带来一些优惠，每座城市的花销能控制在一千五百元以内。我企图用最少的钱看最多的风景。很长一段时间，我抱着“路过就是看过”的集邮式心态旅游。为了告诉别人我来过，在地标性建筑打卡排长队，疯狂去微博、朋友圈等社交媒体晒照，将打卡拍照当成刷题，好像点赞量越多，这趟旅行的价值就越大。
+		</tr> 
+		<tr>
+			<th style="text-align: center"><strong>1 context sets</strong></th>
+            <th style="text-align: center"><strong>3 context sets</strong></th> 
+            <th style="text-align: center"><strong>5 context sets</strong></th>
+            <th style="text-align: center"><strong>7 context sets</strong></th>
+            <th style="text-align: center"><strong>10 context sets</strong></th>
+		</tr>
+		<tr>
+			<td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/1 context sets/000057.wav" controls="" preload=""></audio></td> 
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/3 context sets/000057.wav" controls="" preload=""></audio></td>
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/5 context sets/000057.wav" controls="" preload=""></audio></td>
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/7 context sets/000057.wav" controls="" preload=""></audio></td>
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/10 context sets/000057.wav" controls="" preload=""></audio></td>
+		</tr>
+		
+		<tr>
+            <td style="text-align: left" colspan=5>2. 这里有满壁风动的盛唐芳华、飘逸灵动的飞天仙女、流传千古的九色鹿传说；这里见证东西方文化交汇，是中华文明几千年不断融会贯通的典范。这里，是敦煌。从公元四世纪至十四世纪，一千多年间，一代代人开窟造像，成就莫高窟这座举世闻名的艺术宝库，至今仍存七百三十五个洞窟、四点五万平方米壁画、两千多个彩塑。今天，在科技手段助力下，敦煌人有信心为莫高窟再续命千年。二零一六年，“数字敦煌”资源库平台上线，首次通过互联网向全球发布敦煌石窟三十个经典洞窟的高清数字化内容及全景漫游；二零二零年，“云游敦煌”微信小程序上线； 二零二三年，结合敦煌学研究成果与游戏科技的“数字藏经洞”上线。
+		</tr> 
+		<tr>
+			<th style="text-align: center"><strong>1 context sets</strong></th>
+            <th style="text-align: center"><strong>3 context sets</strong></th> 
+            <th style="text-align: center"><strong>5 context sets</strong></th>
+            <th style="text-align: center"><strong>7 context sets</strong></th>
+            <th style="text-align: center"><strong>10 context sets</strong></th>
+		</tr>
+		<tr>
+			<td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/1 context sets/000035.wav" controls="" preload=""></audio></td> 
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/3 context sets/000035.wav" controls="" preload=""></audio></td>
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/5 context sets/000035.wav" controls="" preload=""></audio></td>
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/7 context sets/000035.wav" controls="" preload=""></audio></td>
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/10 context sets/000035.wav" controls="" preload=""></audio></td>
+		</tr>	
+	</tbody>
+</table>
+<h3>4.3 Various Context Utts</h3>
+<table>
+	<tbody>
+		<tr>
+            <td style="text-align: left" colspan=4>1. 八月八日，为期十二天的成都大运会将正式闭幕。当来自世界各地的年轻人齐聚“蓉城”，有人在这里实现梦想，有人在这里收获感动，还有人自带“社牛”属性，成为本届大赛上的“显眼包”。 有网友说，大运会上的显眼包是不分国界的。在大运会开幕后不久，阿根廷代表团的“显眼包”就因在摆渡车上载歌载舞，登上了热搜榜。瞅这欢乐的气氛，不知道的还以为他们是来旅游的。可怜小小的摆渡车，承受了这个年纪不该承受的重量。其实，从大运会开幕以来，阿根廷代表团就一直很“嗨皮”。有人在场边为队友打鼓助威，还有队员跟着中国球迷高唱“梅西之歌”。
+		</tr> 
+		<tr>
+			<th style="text-align: center"><strong>1 context utts</strong></th>
+            <th style="text-align: center"><strong>2 context utts</strong></th> 
+            <th style="text-align: center"><strong>3 context utts</strong></th>
+            <th style="text-align: center"><strong>4 context utts</strong></th>
+		</tr>
+		<tr>
+			<td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/1 context utts/000069.wav" controls="" preload=""></audio></td> 
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/2 context utts/000069.wav" controls="" preload=""></audio></td>
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/3 context utts/000069.wav" controls="" preload=""></audio></td>
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/4 context utts/000069.wav" controls="" preload=""></audio></td>
+		</tr>
+		
+		<tr>
+            <td style="text-align: left" colspan=4>2. 今年七月，鲍女士在某二手交易平台上挂了两张星巴克星礼卡，售价三百八十元，面值共四百元。一位买家通过消息页面联系称想购买，随后平台页面显示“买家已拍下”，鲍女士以为买家“已经拍下并付款”，于是给了对方卡号密码。可她随后发现，买家只是拍下了商品，并没有进行后续付款操作。“当时买家反复表示已拍好，催促我给他卡号和密码，让我误以为对方已经拍下并付款，可以进行下一步操作，于是就把卡号和密码给了对方。”鲍女士说，直到十五分钟后，她看到系统跳出的提示才知道，对方只是拍下了商品，并未付款。由于是虚拟产品，获取卡号密码即可使用，鲍女士赶紧联系买家，催促对方付款，但对方却是“已读不回”。“我意识到自己可能遭遇了网络交易骗局，想立即冻结订单，却发现无法操作。
+		</tr> 
+		<tr>
+			<th style="text-align: center"><strong>1 context utts</strong></th>
+            <th style="text-align: center"><strong>2 context utts</strong></th> 
+            <th style="text-align: center"><strong>3 context utts</strong></th>
+            <th style="text-align: center"><strong>4 context utts</strong></th>
+		</tr>
+		<tr>
+			<td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/1 context utts/000081.wav" controls="" preload=""></audio></td> 
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/2 context utts/000081.wav" controls="" preload=""></audio></td>
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/3 context utts/000081.wav" controls="" preload=""></audio></td>
+            <td style="text-align: center"><audio src="mysamples/various_llm_ce_strategies/4 context utts/000081.wav" controls="" preload=""></audio></td>
+		</tr>
 	</tbody>
 </table>
   <br>
